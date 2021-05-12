@@ -21,7 +21,7 @@ window.onload = function () {
 	// 编辑器按键监听
 	myCodeMirror.on("keypress", function() {
 		// 显示智能提示
-		// myCodeMirror.showHint();
+		//myCodeMirror.showHint();
 	});
 	var runs = document.getElementById("runs");
 	runs.onclick = function() {
